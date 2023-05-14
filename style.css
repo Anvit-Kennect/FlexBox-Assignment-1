@@ -165,3 +165,51 @@
     height: 20%;
   }
 }
+
+@media only screen and (min-width: 501px) and (max-width: 1097px) {
+  .tile {
+    height: 70px;
+    width: 70px;
+  }
+
+  .container1 {
+    height: 20%;
+  }
+
+  .container2 {
+    height: 60%;
+    display: flex;
+  }
+
+  .inner-container {
+    display: flex;
+    width: 70%;
+    height: 100%;
+  }
+
+  .inner-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10%;
+  }
+
+  .inner-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10%;
+  }
+
+  .container3 {
+    height: 20%;
+  }
+}

@@ -213,3 +213,9 @@
     height: 20%;
   }
 }
+
+@media only screen and (min-width: 501px) and (max-width: 1097px) and (orientation : landscape) {
+  .inner-container1, .inner-container2 {
+    height: 70%;
+  }
+}
